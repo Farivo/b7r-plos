@@ -44,7 +44,7 @@ function App() {
     <main className="app-shell" dir="rtl">
       <div className="announcement">شحن مجاني للطلبات فوق 150 ر.س <span>استفد من العرض الآن ←</span></div>
       <nav className="nav container">
-        <a className="brand" href="#top" aria-label="نوفا هوم الرئيسية"><span className="brand-mark">N</span><span>NOVA<span>HOME</span></span></a>
+        <a className="brand" href="#top" aria-label="متجر موضي الرئيسية"><span className="brand-mark">م</span><span>متجر<span> موضي</span></span></a>
         <div className="nav-links"><a href="#shop">المتجر</a><a href="#benefits">لماذا نحن</a><a href="#story">قصتنا</a></div>
         <div className="nav-actions">
           <label className="search"><span aria-hidden="true">⌕</span><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="ابحث عن منتج..." aria-label="البحث عن منتج" /></label>
